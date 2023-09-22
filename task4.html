@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="task4.css">
+        <style>
+            label{
+                width:100px;
+                display:inline-block;
+                margin: 4px;
+                color: black;
+            }
+            #form{
+                border-radius: 10px;
+                padding: 10px;
+            }
+            input[type=text]{
+                padding: 8px;
+                border:1px solid orange;
+                border-radius: 4px;
+    
+            }
+            input[type=email]{
+                padding:8px;
+                border:1px solid orange;
+                border-radius: 4px;
+        
+            }
+            input[type=number]{
+                padding:8px;
+                border:1px solid orange;
+                border-radius: 4px;
+
+            }
+            input[type=submit]{
+                padding:8px;
+                border:1px solid orange;
+                border-radius: 4px;
+                background-color: orange;
+                margin-left: 25%;
+                width:50%;
+
+            }
+            .input-container {
+                display: flex;
+                align-items: center; 
+            }
+            .input-container input[type="text"]{
+    
+                margin-left: 100px;
+            }
+            .input-container select {
+                margin-left:0; 
+                width: 30%;
+            }
+            #Ac{
+
+                margin-left: 110px;
+            }
+            p{
+                display:inline-block;
+                margin-top: 0px;
+                margin-left:125px;
+                color: hwb(0 27% 72%);
+                font-style: inherit;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div>
+        <a><img src="https://cdn.vectorstock.com/i/preview-2x/93/31/cartoon-girl-writing-vector-1149331.webp" width="50px" height="50px"></a>
+        <a><h1 style="color:hsl(0, 2%, 20%)" align="center">Webinar Registration Form</h1></a>
+        </div>
+        <hr style="border: 1.5px solid orange;"></hr>
+        <div id="form">
+            <form>
+                <lable for="name">Name </lable>
+                <input type="text" id="name" name="name"><br><br>
+                <lable for="name">E-mail </lable>
+                <input type="email" id="email" name="email" placeholder="ex:myname@example.com"><br><br>
+                <lable for="num">Work phone</lable>
+                <input type="number" id="num" name="num">-
+                <input type="number" id="num" name="num"><br>
+                <p>Area code</p>
+                <p>phone number</p><br><br>
+                <lable for="comp">company</lable>
+                <input type="text" id="comp" name="comp"><br><br>
+                <lable for="cA">company Adress</lable>
+                <input type="text" id="cA" name="cA"><br>
+                <p>street Address</p><br>
+                <input type="text" id="Ac" name="Ac"></pre><br>
+                <p>Street AddressLline 2</p><br>
+                <input type="text" id="Ac" name="Ac"><input type="text" id="cA"name="cA"></pre><br>
+                <p>City</p>
+                <p>State/province</p><br>
+                <div class="input-container">
+                    <input type="text" id="username" name="username" >
+                    <select id="country" name="country">
+                        <option value="sel">please select</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">UK</option>
+                    </select>
+                </div>
+                <p>Postal/Zip Code</p>
+                <p>Country</p>
+                <br><br>
+                <lable for="cA">company website</lable>
+                <input type="text" id="cA" name="cA"><br><br><br><br>
+                <input type="submit">
+            </form>
+        </div>
+        
+        
+
+    </body>
+</html>
